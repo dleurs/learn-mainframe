@@ -1,0 +1,56 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. PRETIMMO.
+       
+      * brew install gnu-cobol
+      * cobc -x calcul_pret_immo.cbl && ./calcul_pret_immo
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 MONTANT_EMPRUNTER_EUR  PIC 9(7)V99     VALUE 100000.
+       01 DUREE_ANNEE            PIC 9(2)        VALUE 10.
+       01 DUREE_MOIS             PIC 9(6).
+       01 TAUX_INTERET_ANNUEL    PIC 9(2)V99     VALUE 0.03.
+       01 TAUX_INTERET_MENSUEL   PIC 9(2)V999999.
+
+       01 COUT_TOTAL_EUR         PIC 9(7)V99.
+       01 COUT_INTERET_EUR       PIC 9(7)V99.
+       01 MENSUALITE_EUR         PIC 9(6)V99.
+       01 NOMINATEUR             PIC 9(6)V9999.
+       01 DENOMINATEUR           PIC 9(6)V9999.
+       01 TEMP                   PIC 9(6)V9999.
+       01 1_PLUS_T_PUISS_N       PIC 9(6)V9999.
+       01 I                      PIC 9(3).
+
+       PROCEDURE DIVISION.
+           COMPUTE DUREE_MOIS = DUREE_ANNEE * 12.
+           COMPUTE TAUX_INTERET_MENSUEL = TAUX_INTERET_ANNUEL / 12.
+      *     DISPLAY "DUREE_MOIS : " DUREE_MOIS.
+      *     DISPLAY "TAUX_INTERET_MENSUEL : " TAUX_INTERET_MENSUEL.
+
+      *    Calculer (1 + TAUX_INTERET_MENSUEL)
+           COMPUTE TEMP = 1 + TAUX_INTERET_MENSUEL.
+           COMPUTE 1_PLUS_T_PUISS_N = TEMP.
+
+      *    Calcul de (1 + TAUX_INTERET_MENSUEL) ** (DUREE_MOIS)
+           IF DUREE_MOIS > 0 THEN
+              COMPUTE 1_PLUS_T_PUISS_N = 1 + TAUX_INTERET_MENSUEL
+              PERFORM VARYING I FROM 1 BY 1 UNTIL I = DUREE_MOIS
+                      COMPUTE 1_PLUS_T_PUISS_N = 1_PLUS_T_PUISS_N * TEMP
+              END-PERFORM
+           ELSE
+              COMPUTE 1_PLUS_T_PUISS_N = 1
+           END-IF
+
+           COMPUTE NOMINATEUR = MONTANT_EMPRUNTER_EUR *
+              TAUX_INTERET_MENSUEL * 1_PLUS_T_PUISS_N.
+           COMPUTE DENOMINATEUR = 1_PLUS_T_PUISS_N - 1.
+
+           COMPUTE MENSUALITE_EUR = NOMINATEUR / DENOMINATEUR.
+           COMPUTE COUT_TOTAL_EUR = MENSUALITE_EUR * DUREE_MOIS.
+           COMPUTE COUT_INTERET_EUR = COUT_TOTAL_EUR -
+              MONTANT_EMPRUNTER_EUR.
+
+           DISPLAY "MENSUALITE_EUR   : " MENSUALITE_EUR.
+           DISPLAY "COUT_TOTAL_EUR   : " COUT_TOTAL_EUR.
+           DISPLAY "COUT_INTERET_EUR : " COUT_INTERET_EUR.
+           STOP RUN.
