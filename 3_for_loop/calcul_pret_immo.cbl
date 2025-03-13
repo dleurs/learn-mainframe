@@ -1,8 +1,5 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. PRETIMMO.
-       
-      * brew install gnu-cobol
-      * cobc -x calcul_pret_immo.cbl && ./calcul_pret_immo
 
        DATA DIVISION.
        WORKING-STORAGE SECTION.
