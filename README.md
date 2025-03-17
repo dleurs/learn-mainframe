@@ -4,13 +4,16 @@
 
 - <a href="https://ibmzxplore.influitive.com/channels/47">Accès IBM Z Explorer : pseudo Zxxxxx + mot de passe</a> 
 - Accès IBM Z Explorer <a href="https://ibmzxplore.influitive.com/channels/1">"Fundamentals & concepts"</a>, <a href="https://ibmzxplore.influitive.com/channels/4">Advanced</a> et <a href="https://ibmzxplore.influitive.com/channels/44">Application Developer</a>. 
+- <a href="https://www.ibm.com/docs/en/zos-basic-skills?topic=less-interactive-system-productivity-facility-ispf-courses">IBM ISPF / TSO</a>
+
+
 - <a href="https://www.ibm.com/docs/en/cobol-zos/6.3?topic=appendixes-reserved-words">IBM documentation</a>
-- <a href="https://www.coursera.org/learn/ibm-cobol-basics/home/welcome">Coursera Cobol basics + core</a>
+
+
+
+- Coursera <a href="https://www.coursera.org/learn/ibm-cobol-basics">Cobol Basics</a>, <a href="https://www.coursera.org/learn/ibm-cobol-core">Cobol Core</a> and <a href="https://www.coursera.org/professional-certificates/ibm-z-mainframe#courses">Mainframe Practitioner Professional</a>
 
 - <a href="https://quizlet.com/user/dleurs/folders/info-banque">Carte de mémorisation Quizlet</a>
-
-- <a href="https://www.youtube.com/@fromzerotocobol6023/videos">YouTube FromZeroToCobol</a> 
-- <a href="https://www.ibmmainframer.com/jcl-tutorial/#main">IBM Mainframer JCL</a>
 
 ### Formations métier / fonctionnel liées aux contraintes banques
 
