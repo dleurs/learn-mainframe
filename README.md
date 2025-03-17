@@ -1,4 +1,6 @@
-## Programmes pour apprendre le COBOL :
+ ## Programmes pour apprendre le COBOL :
+
+ <a href="https://quizlet.com/user/dleurs/folders/info-banque">Carte de mémorisation Quizlet ici</a>
 
 1. Helloworld 
 2. Faire des dépots et tenter de faire des retraits sur un compte bancaire **(variable / if)**
