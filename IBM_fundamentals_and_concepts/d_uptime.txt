@@ -1,0 +1,5 @@
+https://s3.amazonaws.com/infl-prod-files/files%2F7bb6315e-0c40-4093-8ad3-eefcbd654c8c%2F110dc390-c74c-48ff-89bd-708dcb38e8af%2Fvideos%2F1726340818046-uptime.mp4
+
+- On IBM zSystems, you get a tightly orchestrated collection of resources, which can be balanced across multiple operating systems, machines or physical locations
+- High availability configuration
+- Du matériels aux OS / instances à l'orchestration aux softwares, tout est faire pour la haute disponibilité
