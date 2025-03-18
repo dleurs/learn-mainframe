@@ -1,0 +1,81 @@
+{
+    "$schema": "./zowe.schema.json",
+    "profiles": {
+        "tso": {
+            "type": "tso",
+            "properties": {
+                "account": "FB3",
+                "codePage": "1047",
+                "logonProcedure": "IZUFPROC"
+            },
+            "secure": []
+        },
+        "ssh": {
+            "type": "ssh",
+            "properties": {
+                "port": 22
+            },
+            "secure": []
+        },
+        "rse": {
+            "type": "rse",
+            "properties": {
+                "port": 6800,
+                "basePath": "rseapi",
+                "protocol": "https"
+            },
+            "secure": [
+                "user",
+                "password"
+            ]
+        },
+        "project_base": {
+            "type": "base",
+            "properties": {
+                "host": "204.90.115.200",
+                "rejectUnauthorized": false
+            },
+            "secure": [
+                "user",
+                "password"
+            ]
+        },
+        "LearnCOBOL": {
+            "properties": {
+                "host": "204.90.115.200"
+            },
+            "profiles": {
+                "zosmf": {
+                    "type": "zosmf",
+                    "properties": {
+                        "port": 10443
+                    }
+                }
+            },
+            "secure": [
+                "user",
+                "password"
+            ]
+        },
+        "base": {
+            "type": "base",
+            "properties": {
+                "host": "204.90.115.200",
+                "rejectUnauthorized": false
+            },
+            "secure": [
+                "user",
+                "password"
+            ]
+        }
+    },
+    "defaults": {
+        "zosmf": "LearnCOBOL.zosmf",
+        "tso": "tso",
+        "ssh": "ssh",
+        "rse": "rse",
+        "base": "base"
+    },
+    "plugins": [],
+    "autoStore": true
+}
