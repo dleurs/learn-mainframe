@@ -44,3 +44,11 @@ Pour certains programme, il est nécessaire d'utiliser VSCode et d'avoir accès 
 ```
 cobc -x calcul_pret_immo.cbl && ./calcul_pret_immo
 ```
+
+
+### Badges
+[![COBOL Programming Badge](badges/cobol-programming-with-vscode.png)](https://www.credly.com/badges/4a9ee56d-5ac2-4ba8-962a-65d030fa9ca2/public_url)
+
+[![COBOL Programming Badge](badges/ibm-z-xplore-concepts.png)](https://www.credly.com/badges/3c016329-6289-481d-b843-2aa584891e57/public_url)
+
+[![COBOL Programming Badge](badges/ibm-z-xplore-advanced.png)](https://www.credly.com/badges/9e1c64d6-e84f-4521-ad00-a2e0f16f3e58/public_url)
