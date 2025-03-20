@@ -13,7 +13,12 @@
 
 - Coursera <a href="https://www.coursera.org/learn/ibm-cobol-basics">Cobol Basics</a>, <a href="https://www.coursera.org/learn/ibm-cobol-core">Cobol Core</a> and <a href="https://www.coursera.org/professional-certificates/ibm-z-mainframe#courses">Mainframe Practitioner Professional</a>
 
-- <a href="https://quizlet.com/user/dleurs/folders/info-banque">Carte de mémorisation Quizlet</a>
+### Mémorisation
+
+<a href="https://quizlet.com/user/dleurs/folders/info-banque">
+    Carte de mémorisation Quizlet
+    <img src="badges/2025-03-20-15.44.08.png"> 
+</a>
 
 ### Formations métier / fonctionnel liées aux contraintes banques
 
