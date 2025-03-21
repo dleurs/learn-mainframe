@@ -17,7 +17,7 @@
 
 <a href="https://quizlet.com/user/dleurs/folders/info-banque">
     Carte de mémorisation Quizlet
-    <img src="badges/2025-03-20-15.44.08.png"> 
+    <img src="badges/quizlet.png"> 
 </a>
 
 ### Formations métier / fonctionnel liées aux contraintes banques
@@ -32,7 +32,6 @@
 3. Calculer les mensualités d'un prêt immobilité **(for loop / opération + complexe)**
 4. Évaluer le risque de fraude d'un client / KYC **(group item / tableau / trie)**
 5. Valider les emails, les numéros de téléphones et la date de naissance sur un data set.**(traitement sur les strings et dates, gestion des erreurs)**
-6. Todo app **(listing, recherche, enregistrement sur fichier, interactivité)**
 
 
 ### Installation des outils : 
