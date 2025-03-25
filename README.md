@@ -17,7 +17,7 @@
 
 <a href="https://quizlet.com/user/dleurs/folders/info-banque">
     Carte de mémorisation Quizlet
-    <img src="badges/quizlet.png"> 
+    <img src="badges/quizlet.png" width="205", height="205"> 
 </a>
 
 ### Formations métier / fonctionnel liées aux contraintes banques
