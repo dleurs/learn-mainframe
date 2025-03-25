@@ -17,7 +17,7 @@
 
 <a href="https://quizlet.com/user/dleurs/folders/info-banque">
     Carte de mémorisation Quizlet
-    <img src="badges/quizlet.png" width="205", height="205"> 
+    <img src="badges/quizlet.png" width="205" height="205"> 
 </a>
 
 ### Formations métier / fonctionnel liées aux contraintes banques
@@ -66,9 +66,11 @@ cobc -x calcul_pret_immo.cbl && ./calcul_pret_immo
   <img src="badges/ibm-z-xplore-advanced.png" width="205", height="205"/>
 </a>
 
-### Udemy approfondissement ISPF, JCL, VSAMP
+### Udemy approfondissement ISPF, JCL, VSAMP, CICS
 
-
+<a href="https://www.udemy.com/certificate/UC-0e4bd689-01ed-4b0d-9566-85dcfb5950ab/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com">
+  <img src="badges/UC-0e4bd689-01ed-4b0d-9566-85dcfb5950ab.jpg" width="205", height="205"/>
+</a>
 
 ### Métiers contraintes bancaires
 

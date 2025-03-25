@@ -1,5 +1,9 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. HELLO-WORLD.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION. 
+       01 USERNAME  PIC X(10).
        PROCEDURE DIVISION.
-           DISPLAY 'Hello, World!'.
+           ACCEPT USERNAME.
+           DISPLAY 'HELLO ' USERNAME.
            STOP RUN.
