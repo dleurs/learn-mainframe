@@ -13,6 +13,8 @@
 
 - Coursera <a href="https://www.coursera.org/learn/ibm-cobol-basics">Cobol Basics</a>, <a href="https://www.coursera.org/learn/ibm-cobol-core">Cobol Core</a> and <a href="https://www.coursera.org/professional-certificates/ibm-z-mainframe#courses">Mainframe Practitioner Professional</a>
 
+c3270 204.90.115.200:623
+
 ### Mémorisation
 
 <a href="https://quizlet.com/user/dleurs/folders/info-banque">
